@@ -1,0 +1,65 @@
+body {
+	border: 10px solid red;
+	background-color:#0029FA;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+
+}
+p,h3 {
+
+	margin: 0 auto;
+}
+h1 {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+blockquote {
+	border-top: 1.3px;
+	border-bottom: 1.3px;
+	font-size: 197.9%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	font-style: italic;
+	background-image: url("img/Tiash.jpg");
+}
+cite {
+	
+	
+	color: black;
+}
+ol {
+	margin: 1.5rem;
+	padding: 1.5rem;
+}
+ul {
+
+	color: blue;
+	;
+}
+li {
+	list-style-type: none;
+}
+ul a:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: red;	
+	font-size: 1.5rem;
+}
+a:visited {
+	color: #7c0080;
+	font-size: 2rem;
+	font-weight: normal;
+}
+a:hover {
+	color: orange;
+	text-decoration: underline;
+	background-color: white;
+}
+a.hobbies:link {
+	color: red;
+}
