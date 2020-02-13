@@ -1,14 +1,14 @@
+*{
+	box-sizing: border-box;
+}
+
 body {
-	border: 10px solid red;
 	background-color:#0029FA;
 	color: white;
 	margin: 0;
 	padding: 0;
 }
 
-img {
-
-}
 p,h3 {
 
 	margin: 0 auto;
@@ -28,8 +28,6 @@ blockquote {
 	background-image: url("img/Tiash.jpg");
 }
 cite {
-	
-	
 	color: black;
 }
 ol {
@@ -37,12 +35,14 @@ ol {
 	padding: 1.5rem;
 }
 ul {
-
-	color: blue;
-	;
+	color:white;
+	
 }
 li {
 	list-style-type: none;
+}
+a {
+	font-size: 2rem;
 }
 ul a:link {
 	font-weight: bold;
@@ -62,4 +62,48 @@ a:hover {
 }
 a.hobbies:link {
 	color: red;
+	font-size: 1.5rem;
+} 
+
+.gallery-img{
+    display: none;
+    max-height: 500px;
+}
+
+.active {
+    display: block;
+}
+.image-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    background-color: #0074d9;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.prev {
+    margin-right: 15px;
+}
+.btn:disabled {
+    background-color: #777;
+    cursor: not-allowed;
+}
+.swiper-slide {
+    text-align: center;
+}
+img {
+    height: 500px;
 }
